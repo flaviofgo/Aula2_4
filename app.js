@@ -6,7 +6,7 @@ import mongoose from 'mongoose';
 import { studentRouter } from './routes/studentRoutes.js';
 
 const app = express();
-
+require('dotenv').config();
 /*Conexao com o MongoDB através do mongoose*/ 
 (async () => {
   try {
